@@ -1,0 +1,120 @@
+body {
+  background: #dcdee2;
+  background-image: url("images/triangles.png");
+  text-align: center;
+}
+
+.img-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.card {
+  background: rgba(195, 191, 191, 0.4);
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 5px rgba(215, 213, 213, 0.5);
+  width: 600px;
+  margin: 15px auto;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+h1, h2, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ccc5c5;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+h2 {
+  color: #ccc5c5;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn-social {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(10, 10, 10, 0.3)
+}
+
+p {
+  color: #575F7D;
+  font-size: 16px;
+  text-align: left;
+}
+
+.btn{
+text-align: center;
+}
+
+.btn-blue {
+  text-decoration: none;
+  background-color:  #6B72E1;
+  color: #ccc5c5;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 38px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: rgb(235, 112, 176);
+}
+
+.social-links li {
+  display: inline;
+  margin: 10px;
+  padding-left: 0px;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
